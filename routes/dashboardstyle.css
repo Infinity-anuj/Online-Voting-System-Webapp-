@@ -1,0 +1,119 @@
+:root{
+    --bgColor: #4b5763;
+    --formColor: linear-gradient(#9fa4af, #60687a);
+    --txtColor: #ffffff;
+    --txtSecondaryColor: #ffff00;
+    --inputBoxBg : transparent;
+    --txtBtnColor: #996565;
+    --txtBtnSecondaryColor: #000000;
+    --btnBorderColor: #ffffff;
+    --btnBgColor: transparent;
+    --btnBgSecondaryColor: #ffffff;
+  }
+  body {
+    margin:0;                                                      
+    padding:0;
+    font-family:'Times New Roman', Times, serif;
+    background: var(--bgColor);
+  }
+
+  h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--txtBtnSecondaryColor);
+    border-radius: 5px;
+  
+  }
+ option:hover{
+    background: var(--btnBgSecondaryColor);
+    color: var(--txtBtnSecondaryColor);
+    border-radius: 5px;
+    box-shadow: 0 0 5px var(--btnBgSecondaryColor),
+                0 0 25px var(--btnBgSecondaryColor),
+                0 0 50px var(--btnBgSecondaryColor),
+                0 0 100px var(--btnBgSecondaryColor);
+
+ }
+
+ a:hover{
+    background: silver;
+    color: var(--txtBtnSecondaryColor);
+    border-radius: 5px;
+    box-shadow: 0 0 5px var(--btnBgSecondaryColor),
+                0 0 25px var(--btnBgSecondaryColor),
+                0 0 50px var(--btnBgSecondaryColor),
+                0 0 100px var(--btnBgSecondaryColor);
+ }
+
+ #backbtn{
+   float: left;
+   margin-left: 10px;
+   position: relative;
+   display: inline-block;
+   padding: 10px 20px;
+   color: var(--txtBtnColor);
+   font-size: 12px;
+   text-decoration: none;
+   text-transform: uppercase;
+   overflow: hidden;
+   transition: .5s;
+   margin-top: 10px;
+   letter-spacing: 2px
+   
+ }
+ #backbtn:hover{ 
+  background: rgb(241, 166, 166);
+  color: var(--txtBtnSecondaryColor);
+  border-radius: 5px;
+  box-shadow: 0 0 5px var(--btnBgSecondaryColor),
+              0 0 25px var(--btnBgSecondaryColor),
+              0 0 50px var(--btnBgSecondaryColor),
+              0 0 100px var(--btnBgSecondaryColor);
+
+ }
+ #logoutbtn:hover{
+  background: rgb(241, 166, 166);
+  color: var(--txtBtnSecondaryColor);
+  border-radius: 5px;
+  box-shadow: 0 0 5px var(--btnBgSecondaryColor),
+              0 0 25px var(--btnBgSecondaryColor),
+              0 0 50px var(--btnBgSecondaryColor),
+              0 0 100px var(--btnBgSecondaryColor);
+
+
+ }
+ #logoutbtn{
+   float: right;
+   margin-right: 10px;
+   position: relative;
+   display: inline-block;
+   padding: 10px 20px;
+   color: var(--txtBtnColor);
+   font-size: 12px;
+   text-decoration: none;
+   text-transform: uppercase;
+   overflow: hidden;
+   transition: .5s;
+   margin-top: 10px;
+   letter-spacing: 4px
+   
+ }
+
+#profileSection{
+  display: inline-block;
+  background-color: white;
+  width: 30%;
+  padding:20px;
+  float: left;
+}
+#groupSection{
+  display: inline-block;
+  background-color: white;
+  width: 63%;
+  padding: 20px;
+  float: right;
+}
+
+#mainSection{
+  padding:10px;
+}
+ 

@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background: #b8e994;
+}
+
+#headersection{
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-decoration-line: underline;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+input{
+    padding :10px;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+#dropbox{
+    padding: 10px;
+    border-radius: 5px;
+    width: 15%;
+}
+
+option{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-display:inherit;
+}
+
+#loginbutton{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(95, 95, 247);
+    border-color: black;
+}
