@@ -1,0 +1,141 @@
+:root{
+    --bgColor: #4b5763;
+    --formColor: linear-gradient(#9fa4af, #60687a);
+    --txtColor: #ffffff;
+    --txtSecondaryColor: #ffff00;
+    --inputBoxBg : transparent;
+    --txtBtnColor: #996565;
+    --txtBtnSecondaryColor: #000000;
+    --btnBorderColor: #ffffff;
+    --btnBgColor: transparent;
+    --btnBgSecondaryColor: #ffffff;
+  }
+  body {
+    margin:0;                                                                
+    padding:0;
+    font-family: sans-serif;
+    background: var(--bgColor);
+  }
+
+  .login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    background: var(--formColor);
+  }
+
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: var(--txtColor);
+    text-align: center;
+  }
+
+  .login-box .user-box {
+    position: relative;
+  }
+
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: var(--txtColor);
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: var(--inputBoxBg);
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: var(--txtColor);
+    pointer-events: none;
+    transition: .5s;
+  }
+
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: var(--txtSecondaryColor);
+    font-size: 12px;
+  }
+
+  .login-box form button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: var(--txtBtnColor);
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+
+  .login-box button:hover {
+    background: lightcoral;
+    color: var(--txtBtnSecondaryColor);
+    border-radius: 5px;
+    box-shadow: 0 0 5px var(--btnBgSecondaryColor),
+                0 0 25px var(--btnBgSecondaryColor),
+                0 0 50px var(--btnBgSecondaryColor),
+                0 0 100px var(--btnBgSecondaryColor);
+  }
+
+ .login-box select{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: var(--txtBtnColor);
+    font-size: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 15px;
+    letter-spacing: 4px
+    
+ }
+ option:hover{
+    background: var(--btnBgSecondaryColor);
+    color: var(--txtBtnSecondaryColor);
+    border-radius: 5px;
+    box-shadow: 0 0 5px var(--btnBgSecondaryColor),
+                0 0 25px var(--btnBgSecondaryColor),
+                0 0 50px var(--btnBgSecondaryColor),
+                0 0 100px var(--btnBgSecondaryColor);
+
+ }
+
+ #user{
+    margin: 0 0 30px;
+    padding: 0;
+    color: var(--txtBtnSecondaryColor);
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+ a:hover{
+    background: silver;
+    color: var(--txtBtnSecondaryColor);
+    border-radius: 5px;
+    box-shadow: 0 0 5px var(--btnBgSecondaryColor),
+                0 0 25px var(--btnBgSecondaryColor),
+                0 0 50px var(--btnBgSecondaryColor),
+                0 0 100px var(--btnBgSecondaryColor);
+ }
+
+ 
